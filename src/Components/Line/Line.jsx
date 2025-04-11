@@ -1,7 +1,7 @@
 
-const Line = ({ width, widthxl }) => {
+const Line = ({ classWidth }) => {
     return(
-        <hr className={`border-t-white ${width} ${widthxl}`} />
+        <hr className={`border-t-white ${classWidth}`} />
     )
 }
 

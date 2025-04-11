@@ -18,7 +18,7 @@ const Menu = () => {
     }
 
     return (
-        <div className="relative bg-marrom flex flex-col items-center w-full min-h-screen xl:gap-[80px] gap-[70px] xl:pb-[120px] pb-[60px]">
+        <div className="relative bg-marrom flex flex-col items-center w-full min-h-screen xl:gap-[80px] gap-[60px] xl:pb-[120px] pb-[60px]">
 
             <Banner />
             <div className="flex flex-col items-center xl:gap-[80px] gap-[40px]">
@@ -27,27 +27,21 @@ const Menu = () => {
                 rounded-[70px] xl:my-[20px] xl:mx-[42px]">
 
                     <ButtonMenu nome='Fritos' escolhido={aoClicar} />
+                    <ButtonMenu nome='Empadas' escolhido={aoClicar} />
+                    <ButtonMenu nome='Assados' escolhido={aoClicar} />
+                    <ButtonMenu nome='Doces' escolhido={aoClicar} />
 
-                    <div>
-                        <ButtonMenu nome='Empadas' escolhido={aoClicar} />
-                    </div>
-                    <div>
-                        <ButtonMenu nome='Assados' escolhido={aoClicar} />
-                    </div>
-                    <div>
-                        <ButtonMenu nome='Doces' escolhido={aoClicar} />
-                    </div>
                 </div>
 
                 <div className="flex xl:flex-row flex-col xl:gap-[50px] gap-[20px]">
-                        {itensMenu.map((item) =>
-                            <CardMenu
-                                key={item.id}
-                                nomeDoItem={item.nome}
-                                saborEspecifico={item.sabores}
-                                imagemItems={item.imagem}
-                            />)}
-    
+                    {itensMenu.map((item) =>
+                        <CardMenu
+                            key={item.id}
+                            nomeDoItem={item.nome}
+                            saborEspecifico={item.sabores}
+                            imagemItems={item.imagem}
+                        />)}
+
                 </div>
 
 

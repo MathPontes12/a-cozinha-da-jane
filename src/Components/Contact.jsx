@@ -4,7 +4,7 @@ import WhatsappLogo from "@/Components/WhatsappLogo/WhatsappLogo"
 
 const Contact = () => {
     return (
-        <div className="relative bg-marrom flex flex-col items-center w-full min-h-screen xl:gap-20 gap-10 xl:pb-[120px] pb-[60px]">
+        <div className="relative bg-marrom flex flex-col items-center w-full min-h-screen xl:gap-[100px] gap-[60px] xl:pb-[120px] pb-[60px]">
 
             <Banner />
             <div className="flex xl:flex-row flex-col xl:items-start items-center xl:gap-[220px] gap-[50px]">
@@ -22,7 +22,7 @@ const Contact = () => {
                                 Sáb das 09h às 17h.
                             </p>
                             <p >
-                                Whatsapp:
+                                Whatsapp: <strong>+55 21 99542-2555</strong>
                             </p>
                         </div>
 
@@ -49,7 +49,7 @@ const Contact = () => {
                                 A cozinha da Jane
                             </p>
                             <p>
-                                CNPJ:
+                                CNPJ: 51.651.989/0001-34
                             </p>
                         </div>
 

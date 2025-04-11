@@ -16,13 +16,13 @@ const Banner = () => {
             </div>
 
             <div className="flex gap-[30px] xl:gap-[67px] xl:ml-[144px] xl:mt-[152px] xl:mb-[100px] pb-[16px]">
-                <Link href="/" className="font-secundaria text-white xl:text-[20px] text-shadow-lg/30 text-shadow-black">
+                <Link href="/" className="font-secundaria text-white xl:text-[20px] text-shadow-lg/30 text-shadow-black hover:opacity-50">
                     Início
                 </Link>
-                <Link href="/menu" className="font-secundaria text-white xl:text-[20px] text-shadow-lg/30 text-shadow-black">
+                <Link href="/menu" className="font-secundaria text-white xl:text-[20px] text-shadow-lg/30 text-shadow-black hover:opacity-50">
                     Cardápio
                 </Link>
-                <Link href="/contact" className="font-secundaria text-white xl:text-[20px] text-shadow-lg/30 text-shadow-black">
+                <Link href="/contact" className="font-secundaria text-white xl:text-[20px] text-shadow-lg/30 text-shadow-black hover:opacity-50">
                     Contato
                 </Link>
             </div>

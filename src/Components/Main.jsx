@@ -11,7 +11,7 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 const Main = () => {
     return (
-        <div className="relative bg-marrom flex flex-col items-center w-full min-h-screen xl:gap-20 gap-10 xl:pb-[120px] pb-[60px]">
+        <div className="relative bg-marrom flex flex-col items-center w-full min-h-screen xl:gap-[100px] gap-[60px]">
 
             <Banner />
             <Titles titulo="Destaques" />
@@ -19,7 +19,7 @@ const Main = () => {
                 <div className="absolute xl:hidden flex justify-start w-full">
                     <ArrowBackIosNewIcon className=" text-white" />
                 </div>
-                <div className="w-fit flex gap-4 pl-4 xl:gap-[100px] xl:justify-center">
+                <div className="xl:ml-0 ml-[250px] xl:mr-0 mr-[20px] w-fit flex gap-4 pl-4 xl:gap-[100px] xl:justify-center">
                     <div className="w-fit">
                         <Cards titulo="Pastel" imagem="pastel" />
                     </div>
@@ -28,6 +28,9 @@ const Main = () => {
                     </div>
                     <div className="w-fit">
                         <Cards titulo="Pudim" imagem="pudim" />
+                    </div>
+                    <div className="w-fit">
+                        <Cards titulo="Pastel de Forno" imagem="pastel-de-forno" />
                     </div>
                 </div>
                 <div className="absolute xl:hidden flex justify-end w-full">
