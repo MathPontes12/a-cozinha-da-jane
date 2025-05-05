@@ -2,6 +2,7 @@ import { Dancing_Script } from 'next/font/google';
 import { Cutive } from 'next/font/google';
 
 import "./globals.css";
+import Banner from '@/Components/Banner/Banner';
 
 const dancingScript = Dancing_Script({
   subsets: ['latin'],
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${dancingScript.variable} ${cutive.variable}`}>
       <body>
+        <Banner/>
         {children}
       </body>
     </html>

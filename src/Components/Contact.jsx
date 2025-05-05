@@ -1,12 +1,11 @@
-import Banner from "@/Components/Banner/Banner"
 import FieldContact from "@/Components/Field-contact/FieldContact"
 import WhatsappLogo from "@/Components/WhatsappLogo/WhatsappLogo"
 
 const Contact = () => {
     return (
-        <div className="relative bg-marrom flex flex-col items-center w-full min-h-screen xl:gap-[100px] gap-[60px] xl:pb-[120px] pb-[60px]">
+        <div className="flex flex-col items-center w-full h-fit
+        xl:pt-[100px] pt-[50px]">
 
-            <Banner />
             <div className="flex xl:flex-row flex-col xl:items-start items-center xl:gap-[220px] gap-[50px]">
                 <FieldContact
                     nome="Central de Vendas"
@@ -55,7 +54,7 @@ const Contact = () => {
 
                     } />
             </div>
-            <WhatsappLogo/>
+            <WhatsappLogo />
         </div>
     )
 }

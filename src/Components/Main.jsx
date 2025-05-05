@@ -1,5 +1,4 @@
-import Banner from "@/Components/Banner/Banner"
-import Cards from "@/Components/Cards/Card"
+import Cards from "@/Components/CardsHighlights/CardHighlight"
 import Sobre from "@/Components/Sobre/Sobre"
 import SocialMediaBar from "@/Components/SocialMediaBar/SocialMediaBar"
 import Titles from "@/Components/Titles/Titles"
@@ -11,9 +10,8 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 const Main = () => {
     return (
-        <div className="relative bg-marrom flex flex-col items-center w-full min-h-screen xl:gap-[100px] gap-[60px]">
+        <div className="relative flex flex-col items-center w-full h-fit xl:gap-[100px] gap-[60px] xl:pt-[100px] pt-[50px]">
 
-            <Banner />
             <Titles titulo="Destaques" />
             <div className="flex items-center justify-center w-full overflow-x-auto scrollbar-hide">
                 <div className="absolute xl:hidden flex justify-start w-full">
@@ -30,7 +28,7 @@ const Main = () => {
                         <Cards titulo="Pudim" imagem="pudim" />
                     </div>
                     <div className="w-fit">
-                        <Cards titulo="Pastel de Forno" imagem="pastel-de-forno" />
+                        <Cards titulo="B. de Feijoada" imagem="bolinhodefeijoada" />
                     </div>
                 </div>
                 <div className="absolute xl:hidden flex justify-end w-full">

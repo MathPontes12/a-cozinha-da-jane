@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+body {
+  height: 100%;
+  margin: 0;
+  background: var(--color-marrom);
+}
 
 @theme {
   --color-roxo: #604652;

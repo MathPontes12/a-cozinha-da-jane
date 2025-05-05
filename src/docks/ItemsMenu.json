@@ -1,7 +1,371 @@
-{
+{   
+    "Salgadinhos": [
+        {
+            "id": "1",
+            "categoria": "Salgadinhos",
+            "nome": "Pastel",
+            "imagem": "pastel",
+            "sabores": [
+                {
+                    "id": "1",
+                    "nome": "Queijo",
+                    "cor": "bg-[#FFF64C]"
+                },
+                {
+                    "id": "2",
+                    "nome": "Carne",
+                    "cor": "bg-[#D19791]"
+                },
+                {
+                    "id": "3",
+                    "nome": "Frango",
+                    "cor": "bg-[#FFCB3D]"
+                }
+            ],
+            "preçoApartir": "R$ 30,00",
+            "preparado": [
+                {
+                    "id": "1",
+                    "preco": "R$ 100,00",
+                    "unidades": "/ 100 unidades",
+                    "precoPorcao": "R$ 30,00",
+                    "unidades2": "/ porção"
+                }
+            ],
+            "congelado": [
+                {
+                    "id": "1",
+                    "preco": "R$ 80,00",
+                    "unidades": "/ 100 unidades",
+                    "precoPorcao": "R$ 25,00",
+                    "unidades2": "/ porção"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "categoria": "Salgadinhos",
+            "nome": "Coxinha",
+            "imagem": "coxinha",
+            "preçoApartir": "R$ 28,00",
+            "preparado": [
+                {
+                    "id": "1",
+                    "preco": "R$ 110,00",
+                    "unidades": "/ 100 unidades",
+                    "precoPorcao": "R$ 35,00",
+                    "unidades2": "/ porção"
+                }
+            ],
+            "congelado": [
+                {
+                    "id": "1",
+                    "preco": "R$ 90,00",
+                    "unidades": "/ 100 unidades",
+                    "precoPorcao": "R$ 28,00",
+                    "unidades2": "/ porção"
+                }
+            ]          
+        },
+        {
+            "id": "3",
+            "categoria": "Salgadinhos",
+            "nome": "Quibe",
+            "imagem": "quibe",
+            "preçoApartir": "R$ 28,00",
+            "preparado": [
+                {
+                    "id": "1",
+                    "preco": "R$ 110,00",
+                    "unidades": "/ 100 unidades",
+                    "precoPorcao": "R$ 35,00",
+                    "unidades2": "/ porção"
+                }
+            ],
+            "congelado": [
+                {
+                    "id": "1",
+                    "preco": "R$ 90,00",
+                    "unidades": "/ 100 unidades",
+                    "precoPorcao": "R$ 28,00",
+                    "unidades2": "/ porção"
+                }
+            ]     
+        },
+        {
+            "id": "4",
+            "categoria": "Salgadinhos",
+            "nome": "Enroladinho de Salsicha Frito",
+            "imagem": "enroladinhosalsicha",
+            "preçoApartir": "R$ 28,00",
+            "preparado": [
+                {
+                    "id": "1",
+                    "preco": "R$ 110,00",
+                    "unidades": "/ 100 unidades",
+                    "precoPorcao": "R$ 35,00",
+                    "unidades2": "/ porção"
+                }
+            ],
+            "congelado": [
+                {
+                    "id": "1",
+                    "preco": "R$ 90,00",
+                    "unidades": "/ 100 unidades",
+                    "precoPorcao": "R$ 28,00",
+                    "unidades2": "/ porção"
+                }
+            ]  
+        },
+        {
+            "id": "5",
+            "categoria": "Salgadinhos",
+            "nome": "Bolinha de Queijo",
+            "imagem": "bolinhadequeijo",
+            "preçoApartir": "R$ 28,00",
+            "preparado": [
+                {
+                    "id": "1",
+                    "preco": "R$ 110,00",
+                    "unidades": "/ 100 unidades",
+                    "precoPorcao": "R$ 35,00",
+                    "unidades2": "/ porção"
+                }
+            ],
+            "congelado": [
+                {
+                    "id": "1",
+                    "preco": "R$ 90,00",
+                    "unidades": "/ 100 unidades",
+                    "precoPorcao": "R$ 28,00",
+                    "unidades2": "/ porção"
+                }
+            ]  
+        },
+        {
+            "id": "6",
+            "categoria": "Salgadinhos",
+            "nome": "Risole",
+            "imagem": "risole",
+            "sabores": [
+                {
+                    "id": "1",
+                    "nome": "Carne",
+                    "cor": "bg-[#D19791]"
+                },
+                {
+                    "id": "2",
+                    "nome": "Queijo e Presunto",
+                    "cor": "bg-[linear-gradient(135deg,_#FFF64C_50%,_#e8a2c8_50%)]"
+                },
+                {
+                    "id": "3",
+                    "nome": "Camarão",
+                    "cor": "bg-[#EFAF56]"
+                },
+                {
+                    "id": "4",
+                    "nome": "Frango",
+                    "cor": "bg-[#FFCB3D]"
+                }
+            ],
+            "preçoApartir": "R$ 28,00",
+            "preparado": [
+                {
+                    "id": "1",
+                    "preco": "R$ 110,00",
+                    "unidades": "/ 100 unidades",
+                    "precoPorcao": "R$ 35,00",
+                    "unidades2": "/ porção"
+                }
+            ],
+            "congelado": [
+                {
+                    "id": "1",
+                    "preco": "R$ 90,00",
+                    "unidades": "/ 100 unidades",
+                    "precoPorcao": "R$ 28,00",
+                    "unidades2": "/ porção"
+                }
+            ]  
+        },
+        {
+            "id": "7",
+            "categoria": "Salgadinhos",
+            "nome": "Pastel de Forno",
+            "imagem": "pasteldeforno",
+            "sabores": [
+                {
+                    "id": "1",
+                    "nome": "Queijo e Presunto",
+                    "cor": "bg-[linear-gradient(135deg,_#FFF64C_50%,_#e8a2c8_50%)]"
+                },
+                {
+                    "id": "2",
+                    "nome": "Camarão",
+                    "cor": "bg-[#EFAF56]"
+                },
+                {
+                    "id": "3",
+                    "nome": "Frango",
+                    "cor": "bg-[#FFCB3D]"
+                }
+            ],
+            "preçoApartir": "R$ 28,00",
+            "preparado": [
+                {
+                    "id": "1",
+                    "preco": "R$ 120,00",
+                    "unidades": "/ 100 unidades",
+                    "precoPorcao": "R$ 40,00",
+                    "unidades2": "/ porção"
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "categoria": "Salgadinhos",
+            "nome": "Joelho",
+            "imagem": "joelho",
+            "sabores": [
+                {
+                    "id": "1",
+                    "nome": "Queijo e Presunto",
+                    "cor": "bg-[linear-gradient(135deg,_#FFF64C_50%,_#e8a2c8_50%)]"
+                }
+            ],
+            "preçoApartir": "R$ 28,00",
+            "preparado": [
+                {
+                    "id": "1",
+                    "preco": "R$ 120,00",
+                    "unidades": "/ 100 unidades",
+                    "precoPorcao": "R$ 40,00",
+                    "unidades2": "/ porção"
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "categoria": "Salgadinhos",
+            "nome": "Hambúrguer",
+            "imagem": "hamburguer",
+            "preçoApartir": "R$ 28,00",
+            "preparado": [
+                {
+                    "id": "1",
+                    "preco": "R$ 120,00",
+                    "unidades": "/ 100 unidades",
+                    "precoPorcao": "R$ 40,00",
+                    "unidades2": "/ porção"
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "categoria": "Salgadinhos",
+            "nome": "Esfirra",
+            "imagem": "esfirra",
+            "sabores": [
+                {
+                    "id": "1",
+                    "nome": "Carne",
+                    "cor": "bg-[#D19791]"
+                }
+            ],
+            "preçoApartir": "R$ 28,00",
+            "preparado": [
+                {
+                    "id": "1",
+                    "preco": "R$ 120,00",
+                    "unidades": "/ 100 unidades",
+                    "precoPorcao": "R$ 40,00",
+                    "unidades2": "/ porção"
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "categoria": "Salgadinhos",
+            "nome": "Enroladinho de Salsicha Assado",
+            "imagem": "salsicha",
+            "sabores": [
+                {
+                    "id": "1",
+                    "nome": "Carne",
+                    "cor": "bg-[#D19791]"
+                }
+            ],
+            "preçoApartir": "R$ 28,00",
+            "preparado": [
+                {
+                    "id": "1",
+                    "preco": "R$ 120,00",
+                    "unidades": "/ 100 unidades",
+                    "precoPorcao": "R$ 40,00",
+                    "unidades2": "/ porção"
+                }
+            ]
+        }
+    ],
+
+
+
+    "Bolinhos": [
+        {
+            "id": "1",
+            "categoria": "Bolinhos",
+            "nome": "Bolinho de Bacalhau",
+            "imagem": "bolinhodebacalhau",
+            "preçoApartir": "R$ 98,00",
+            "preparado": [
+                {
+                    "id": "1",
+                    "preco": "R$ 135,00",
+                    "unidades": "/ kg"
+                }
+            ],
+            "congelado": [
+                {
+                    "id": "1",
+                    "preco": "R$ 98,00",
+                    "unidades": "/ kg"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "categoria": "Bolinhos",
+            "nome": "Bolinho de Feijoada",
+            "imagem": "bolinhodefeijoada",
+            "preçoApartir": "R$ 28,00",
+            "preparado": [
+                {
+                    "id": "1",
+                    "preco": "R$ 42,00",
+                    "unidades": "/ 10 unidades"
+                }
+            ],
+            "congelado": [
+                {
+                    "id": "1",
+                    "preco": "R$ 28,00",
+                    "unidades": "/ 10 unidades"
+                }
+            ]
+        }
+
+    ],
+
+
+
+
+
+
     "Empadas": [
         {
             "id": "1",
+            "categoria": "Empadas",
             "nome": "Empada",
             "imagem": "empada",
             "sabores": [
@@ -20,37 +384,76 @@
                     "nome": "Camarão",
                     "cor": "bg-[#EFAF56]"
                 }
+            ],
+            "preçoApartir": "R$ 35,00",
+            "preparado": [
+                {
+                    "id": "1",
+                    "preco": "R$ 110,00",
+                    "unidades": "/ 100 unidades",
+                    "precoPorcao": "R$ 35,00",
+                    "unidades2": "/ porção"
+                }
             ]
         },
         {
             "id": "2",
+            "categoria": "Empadas",
             "nome": "Empadão",
             "imagem": "empadao",
             "sabores": [
                 {
                     "id": "1",
-                    "nome": "Queijo",
-                    "cor": "bg-[#FFF64C]"
-                },
-                {
-                    "id": "2",
                     "nome": "Frango",
                     "cor": "bg-[#FFCB3D]"
                 },
                 {
-                    "id": "3",
+                    "id": "2",
                     "nome": "Camarão",
                     "cor": "bg-[#EFAF56]"
                 },
                 {
-                    "id": "4",
-                    "nome": "Palmito",
-                    "cor": "bg-white"
+                    "id": "3",
+                    "nome": "Bacalhau",
+                    "cor": "bg-[#C4ECFF]"
+                }
+            ],
+            "preçoApartir": "R$ 18,00",
+            "preparado": [
+                {
+                    "id": "1",
+                    "preco": "R$ 80,00",
+                    "unidades": "/ Grande",
+                    "precoPorcao": "R$ 45,00",
+                    "unidades2": "/ Médio",
+                    "preco3": "R$ 18,00",
+                    "unidades3": "/ Pequeno"
+                }
+            ],
+            "congelado": [
+                {
+                    "id": "1",
+                    "preco": "R$ 95,00",
+                    "unidades": "/ Grande",
+                    "precoPorcao": "R$ 55,00",
+                    "unidades2": "/ Médio",
+                    "preco3": "R$ 18,00",
+                    "unidades3": "/ Pequeno"
+                }
+            ],
+            "outros": [
+                {
+                    "id": "1",
+                    "preco": "R$ 120,00",
+                    "unidades": "/ Grande",
+                    "precoPorcao": "R$ 68,00",
+                    "unidades2": "/ Médio"
                 }
             ]
         },
         {
             "id": "3",
+            "categoria": "Empadas",
             "nome": "Empada Doce",
             "imagem": "empada-doce",
             "sabores": [
@@ -59,12 +462,90 @@
                     "nome": "Leite Condensado",
                     "cor": "bg-[#FFDEA2]"
                 }
+            ],
+            "preçoApartir": "R$ 35,00",
+            "preparado": [
+                {
+                    "id": "1",
+                    "preco": "R$ 110,00",
+                    "unidades": "/ 100 unidades",
+                    "precoPorcao": "R$ 35,00",
+                    "unidades2": "/ porção"
+                }
             ]
         }
     ],
+   
+
+
+
+
+
+
+    "Pratos": [
+        {
+            "id": "1",
+            "categoria": "Pratos",
+            "nome": "Sacanagem",
+            "imagem": "sacanagem",
+            "preçoApartir": "R$ 45,00",
+            "preparado": [
+                {
+                    "id": "1",
+                    "preco": "R$ 45,00",
+                    "unidades": "/ 30 unidades"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "categoria": "Pratos",
+            "nome": "Batatinhas Temperadas",
+            "imagem": "batatinhas",
+            "preçoApartir": "R$ 30,00",
+            "preparado": [
+                {
+                    "id": "1",
+                    "preco": "R$ 30,00",
+                    "unidades": "/ 500 gramas"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "categoria": "Pratos",
+            "nome": "Torta Salgada",
+            "imagem": "tortasalgada",
+            "sabores": [
+                {
+                    "id": "1",
+                    "nome": "Frango",
+                    "cor": "bg-[#FFCB3D]"
+                }
+            ],
+            "preçoApartir": "R$ 45,00",
+            "preparado": [
+                {
+                    "id": "1",
+                    "preco": "R$ 45,00",
+                    "unidades": "/ unidade"
+                }
+            ]
+        }
+    ],
+
+
+
+
+
+
+
+
+    
     "Doces": [
         {
             "id": "1",
+            "categoria": "Doces",
             "nome": "Pudim",
             "imagem": "pudim",
             "sabores": [
@@ -73,10 +554,21 @@
                     "nome": "Leite Condensado",
                     "cor": "bg-[#FFDEA2]"
                 }
+            ],
+            "preçoApartir": "R$ 48,00",
+            "preparado": [
+                {
+                    "id": "1",
+                    "preco": "R$ 48,00",
+                    "unidades": "/ Pequeno",
+                    "precoPorcao": "R$ 70,00",
+                    "unidades2": "/ Médio"
+                }
             ]
         },
         {
             "id": "2",
+            "categoria": "Doces",
             "nome": "Brigadeirão",
             "imagem": "brigadeirao",
             "sabores": [
@@ -85,61 +577,43 @@
                     "nome": "Chocolate",
                     "cor": "bg-[#b88b5c]"
                 }
-            ]
-        }
-    ],
-    "Fritos": [
-        {
-            "id": "1",
-            "nome": "Pastel",
-            "imagem": "pastel",
-            "sabores": [
+            ],
+            "preçoApartir": "R$ 48,00",
+            "preparado": [
                 {
                     "id": "1",
-                    "nome": "Queijo",
-                    "cor": "bg-[#FFF64C]"
-                },
-                {
-                    "id": "2",
-                    "nome": "Carne",
-                    "cor": "bg-[#D19791]"
+                    "preco": "R$ 48,00",
+                    "unidades": "/ Pequeno",
+                    "precoPorcao": "R$ 70,00",
+                    "unidades2": "/ Médio"
                 }
             ]
         },
         {
-            "id": "2",
-            "nome": "Bolinhos",
-            "imagem": "bolinhos",
+            "id": "3",
+            "categoria": "Doces",
+            "nome": "Travessa Gelada",
+            "imagem": "travessa",
             "sabores": [
                 {
                     "id": "1",
-                    "nome": "Feijoada",
-                    "cor": "bg-[#B0B0B0]"
+                    "nome": "Banoffee",
+                    "cor": "bg-[#B9933A]"
                 },
                 {
                     "id": "2",
-                    "nome": "Bacalhau",
-                    "cor": "bg-[#B4EEED]"
+                    "nome": "Limão",
+                    "cor": "bg-[#CAFFB6]"
                 }
-            ]
-        }
-    ],
 
-    "Assados": [
-        {
-            "id": "1",
-            "nome": "Pastel de Forno",
-            "imagem": "pastel-de-forno",
-            "sabores": [
+            ],
+            "preçoApartir": "R$ 90,00",
+            "preparado": [
                 {
                     "id": "1",
-                    "nome": "Carne",
-                    "cor": "bg-[#D19791]"
+                    "preco": "R$ 90,00"
                 }
-                
             ]
         }
-       
     ]
-
 }

@@ -3,7 +3,9 @@ import Link from "next/link"
 const Banner = () => {
     return (
         <div className="flex xl:flex-row flex-col w-full xl:h-[170px] h-fit items-center xl:justify-center
-         gap-[40px] bg-linear-to-r from-roxo to-roxoSecundario rounded-[10px] shadow-xl/50 ">
+         gap-[40px] bg-linear-to-r from-roxo to-roxoSecundario shadow-xl/50">
+            
+            {/* TITULO DO BANNER */}
 
             <div className="flex xl:flex-row flex-col items-center" >
 
@@ -14,6 +16,8 @@ const Banner = () => {
                 </h1>
 
             </div>
+
+            {/* LINKS DO BANNER */}
 
             <div className="flex gap-[30px] xl:gap-[67px] xl:ml-[144px] xl:mt-[152px] xl:mb-[100px] pb-[16px]">
                 <Link href="/" className="font-secundaria text-white xl:text-[20px] text-shadow-lg/30 text-shadow-black hover:opacity-50">
