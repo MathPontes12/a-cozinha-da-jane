@@ -24,6 +24,9 @@ Projeto React desenvolvido por mim onde mostro um pouco do trabalho do laborator
       <br>
       <br>
       <br>
-      <img src="" width= "800"/>
-  
+      <img src="https://github.com/user-attachments/assets/c8f4f5e1-781a-4567-8720-4f55c4cd780e" width= "600"/>
+      
 </div>
+
+## Deploy on Vercel
+https://a-cozinha-da-jane.vercel.app/
