@@ -10,7 +10,7 @@ const Description = ({ nome, imagem, preparado, congelado, outros, sabores, Volt
         // poe na variavel o encode com a frase
         const mensagem = encodeURIComponent(`Gostaria de fazer um pedido de ${nome}`)
         // numero do celular
-        const numero = '5521975140670'
+        const numero = '5521995422555'
 
         // acessa a url do whatsapp no numero e com a mensagem
         const url = `https://wa.me/${numero}?text=${mensagem}`;
