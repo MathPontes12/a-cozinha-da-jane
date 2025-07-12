@@ -4,12 +4,13 @@ import ButtonMenu from "@/Components/ButtonMenu/ButtonMenu"
 import CardMenu from "@/Components/CardsMenu/CardsItemsMenu"
 import dados from '@/docks/ItemsMenu.json';
 import { useState } from "react";
+import Footer from "./Footer/Footer";
 
 
 const Menu = ({ aoClicarNoCard }) => {
 
 
-    const [itensMenu, setItensMenu] = useState([])
+    const [itensMenu, setItensMenu] = useState(dados['Salgadinhos'])
 
     const aoClicar = (menuEscolhido) => {
         const itens = dados[menuEscolhido];
@@ -19,10 +20,10 @@ const Menu = ({ aoClicarNoCard }) => {
 
     return (
        
-            <div className="flex flex-col items-center xl:gap-[80px] gap-[40px]">
+            <div className="flex flex-col items-center w-full xl:gap-[80px] gap-[40px]">
 
-                <div className="bg-bege border-roxo flex xl:gap-[0px] border-[4px] 
-                rounded-[70px] xl:my-[20px] xl:mx-[42px] xl:p-0 p-[5px] flex-wrap justify-center">
+                <div className="bg-linear-to-r from-roxo to-roxoSecundario shadow-xl/50 flex xl:gap-[90px] gap-[30px] w-full
+                xl:mx-[42px] xl:pt-[40px] pt-[30px] xl:pb-[20px] pb-[10px] flex-wrap justify-center">
 
                     <ButtonMenu nome='Salgadinhos' escolhido={aoClicar} />
                     <ButtonMenu nome='Bolinhos' escolhido={aoClicar} />
@@ -47,8 +48,7 @@ const Menu = ({ aoClicarNoCard }) => {
                     )}
 
                 </div>
-
-
+                <Footer/>
             </div>
 
     )

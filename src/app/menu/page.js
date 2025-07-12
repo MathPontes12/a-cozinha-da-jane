@@ -25,9 +25,9 @@ const PageMenu = () => {
     }
 
     return(
-
+        
         <div className="relative flex flex-col items-center w-full h-fit 
-        xl:gap-[80px] gap-[60px] xl:pt-[100px] pt-[50px]">
+        xl:gap-[80px] gap-[60px]">
 
             {ItemSelecionado ? 
             
@@ -47,6 +47,7 @@ const PageMenu = () => {
 
             <WhatsappLogo />
         </div>
+
 
     )
 }

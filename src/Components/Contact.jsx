@@ -1,12 +1,13 @@
 import FieldContact from "@/Components/Field-contact/FieldContact"
 import WhatsappLogo from "@/Components/WhatsappLogo/WhatsappLogo"
+import Footer from "./Footer/Footer"
 
 const Contact = () => {
     return (
         <div className="flex flex-col items-center w-full h-fit
         xl:pt-[100px] pt-[50px]">
 
-            <div className="flex xl:flex-row flex-col xl:items-start items-center xl:gap-[220px] gap-[50px]">
+            <div className="flex xl:flex-row flex-col xl:items-start items-center xl:gap-[220px] gap-[50px] mb-[100px]">
                 <FieldContact
                     nome="Central de Vendas"
                     children={
@@ -55,6 +56,7 @@ const Contact = () => {
                     } />
             </div>
             <WhatsappLogo />
+            <Footer/>
         </div>
     )
 }

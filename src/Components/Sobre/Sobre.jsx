@@ -4,7 +4,7 @@ const Sobre = () => {
     return(
 
         // PARTE "SOBRE" DO MENU PRINCIPAL
-        <div className="flex flex-col items-center xl:gap-20 gap-[60px]">
+        <div className="flex flex-col items-center xl:gap-20 gap-[60px] mb-[30px]">
             <Titles titulo="Sobre" />
             <h1 className=" text-white text-justify xl:text-[22px] text-[16px] xl:mx-[112px] mx-[20px] xl:indent-20 indent-6 xl:leading-12 leading-8">
                 Aliando o gostinho da comida caseira com a praticidade do dia a dia,

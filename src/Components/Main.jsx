@@ -5,6 +5,7 @@ import Titles from "@/Components/Titles/Titles"
 import WhatsappLogo from "@/Components/WhatsappLogo/WhatsappLogo"
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import Footer from "./Footer/Footer"
 
 
 
@@ -35,9 +36,15 @@ const Main = () => {
                     <ArrowForwardIosIcon className="text-white" />
                 </div>
             </div>
+            <h1 className="text-white font-secundaria text-[18px] xl:text-[28px] px-[20px]
+             text-shadow-lg/30 text-shadow-black text-center">
+                Confira essas e outras delícias no menu cardápio!!
+
+            </h1>
             <SocialMediaBar />
             <Sobre />
-            <WhatsappLogo/>
+            <WhatsappLogo />
+            <Footer />
         </div>
     )
 }
