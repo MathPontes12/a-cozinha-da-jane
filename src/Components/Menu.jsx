@@ -23,7 +23,7 @@ const Menu = ({ aoClicarNoCard }) => {
             <div className="flex flex-col items-center w-full xl:gap-[80px] gap-[40px]">
 
                 <div className="bg-linear-to-r from-roxo to-roxoSecundario shadow-xl/50 flex xl:gap-[90px] gap-[30px] w-full
-                xl:mx-[42px] xl:pt-[40px] pt-[30px] xl:pb-[20px] pb-[10px] flex-wrap justify-center">
+                xl:mx-[42px] xl:pt-[30px] pt-[30px] xl:pb-[20px] pb-[10px] border-t-bege border-t-[1px] flex-wrap justify-center">
 
                     <ButtonMenu nome='Salgadinhos' escolhido={aoClicar} />
                     <ButtonMenu nome='Bolinhos' escolhido={aoClicar} />

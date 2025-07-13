@@ -5,7 +5,7 @@ const CardMenu = ({ nomeDoItem, precoDoItem, imagemItems, categoria }) => {
 
         // CARD DOS ITENS NA PAGINA MENU APÓS ESCOLHER AS CATEGORIAS
 
-        <div className="group xl:w-[280px] w-[190px] h-fit flex flex-col items-center p-[30px] rounded-[10px] border-[2px]
+        <div className="group xl:w-[280px] w-[190px] xl:h-[420px] h-[380px] flex flex-col items-center p-[30px] rounded-[10px] border-[2px]
          border-roxoTransparente bg-begeTransparente text-white font-secundaria 
          xl:hover:shadow-xl/20 xl:shadow-none shadow-xl/20 cursor-pointer">
 
