@@ -1,4 +1,4 @@
-# LFCPM-React
+# A cozinha da Jane
 
 <br>
 
@@ -13,13 +13,13 @@
 <br>
 
 ## Sobre
-Projeto React desenvolvido por mim onde mostro um pouco do trabalho do laboratorio LFCPM da UERJ, focado em pesquisa ciêntifica pré-clínica.
+Projeto react de uma SPA para a empresa de alimentos "A cozinah da Jane".
 <br>
 <br>
 <br>
 
 <div align = "center">
-      <h2 align="center"> LFCPM-React </h2>
+      <h2 align="center"> A cozinha da Jane </h2>
       Página inicial
       <br>
       <br>
