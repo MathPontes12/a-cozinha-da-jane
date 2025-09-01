@@ -19,15 +19,20 @@ const cutive = Cutive({
 });
 
 export const metadata = {
-  title: "A cozinha da Jane",
+  title: "A Cozinha da Jane",
   description: "site dedicado",
+   icons: {
+    icon: "/LOGO.png", // favicon normal
+    shortcut: "/LOGO.png", // aparece em atalhos
+    apple: "/LOGO.png", // iOS quando salvar na tela inicial
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${dancingScript.variable} ${cutive.variable}`}>
       <body>
-        <Banner/>
+        <Banner />
         {children}
       </body>
     </html>

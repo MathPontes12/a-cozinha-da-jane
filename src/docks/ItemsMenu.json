@@ -47,7 +47,7 @@
             "categoria": "Salgadinhos",
             "nome": "Coxinha",
             "imagem": "coxinha",
-            "preçoApartir": "R$ 28,00",
+            "preçoApartir": "R$ 35,00",
             "preparado": [
                 {
                     "id": "1",
@@ -62,7 +62,7 @@
                     "id": "1",
                     "preco": "R$ 90,00",
                     "unidades": "/ 100 unidades",
-                    "precoPorcao": "R$ 28,00",
+                    "precoPorcao": "R$ 35,00",
                     "unidades2": "/ porção"
                 }
             ]          
@@ -72,7 +72,7 @@
             "categoria": "Salgadinhos",
             "nome": "Quibe",
             "imagem": "quibe",
-            "preçoApartir": "R$ 28,00",
+            "preçoApartir": "R$ 35,00",
             "preparado": [
                 {
                     "id": "1",
@@ -87,7 +87,7 @@
                     "id": "1",
                     "preco": "R$ 90,00",
                     "unidades": "/ 100 unidades",
-                    "precoPorcao": "R$ 28,00",
+                    "precoPorcao": "R$ 35,00",
                     "unidades2": "/ porção"
                 }
             ]     
@@ -97,7 +97,7 @@
             "categoria": "Salgadinhos",
             "nome": "Enroladinho de Salsicha Frito",
             "imagem": "enroladinhosalsicha",
-            "preçoApartir": "R$ 28,00",
+            "preçoApartir": "R$ 35,00",
             "preparado": [
                 {
                     "id": "1",
@@ -112,7 +112,7 @@
                     "id": "1",
                     "preco": "R$ 90,00",
                     "unidades": "/ 100 unidades",
-                    "precoPorcao": "R$ 28,00",
+                    "precoPorcao": "R$ 35,00",
                     "unidades2": "/ porção"
                 }
             ]  
@@ -122,7 +122,7 @@
             "categoria": "Salgadinhos",
             "nome": "Bolinha de Queijo",
             "imagem": "bolinhadequeijo",
-            "preçoApartir": "R$ 28,00",
+            "preçoApartir": "R$ 35,00",
             "preparado": [
                 {
                     "id": "1",
@@ -137,7 +137,7 @@
                     "id": "1",
                     "preco": "R$ 90,00",
                     "unidades": "/ 100 unidades",
-                    "precoPorcao": "R$ 28,00",
+                    "precoPorcao": "R$ 35,00",
                     "unidades2": "/ porção"
                 }
             ]  
@@ -169,7 +169,7 @@
                     "cor": "bg-[#FFCB3D]"
                 }
             ],
-            "preçoApartir": "R$ 28,00",
+            "preçoApartir": "R$ 35,00",
             "preparado": [
                 {
                     "id": "1",
@@ -184,7 +184,7 @@
                     "id": "1",
                     "preco": "R$ 90,00",
                     "unidades": "/ 100 unidades",
-                    "precoPorcao": "R$ 28,00",
+                    "precoPorcao": "R$ 35,00",
                     "unidades2": "/ porção"
                 }
             ]  
@@ -211,7 +211,7 @@
                     "cor": "bg-[#FFCB3D]"
                 }
             ],
-            "preçoApartir": "R$ 28,00",
+            "preçoApartir": "R$ 35,00",
             "preparado": [
                 {
                     "id": "1",
@@ -234,7 +234,7 @@
                     "cor": "bg-[linear-gradient(135deg,_#FFF64C_50%,_#e8a2c8_50%)]"
                 }
             ],
-            "preçoApartir": "R$ 28,00",
+            "preçoApartir": "R$ 35,00",
             "preparado": [
                 {
                     "id": "1",
@@ -250,7 +250,7 @@
             "categoria": "Salgadinhos",
             "nome": "Hambúrguer",
             "imagem": "hamburguer",
-            "preçoApartir": "R$ 28,00",
+            "preçoApartir": "R$ 35,00",
             "preparado": [
                 {
                     "id": "1",
@@ -273,7 +273,7 @@
                     "cor": "bg-[#D19791]"
                 }
             ],
-            "preçoApartir": "R$ 28,00",
+            "preçoApartir": "R$ 35,00",
             "preparado": [
                 {
                     "id": "1",
@@ -296,7 +296,7 @@
                     "cor": "bg-[#D19791]"
                 }
             ],
-            "preçoApartir": "R$ 28,00",
+            "preçoApartir": "R$ 35,00",
             "preparado": [
                 {
                     "id": "1",
@@ -418,7 +418,7 @@
                     "cor": "bg-[#C4ECFF]"
                 }
             ],
-            "preçoApartir": "R$ 18,00",
+            "preçoApartir": "R$ 35,00",
             "preparado": [
                 {
                     "id": "1",
@@ -426,7 +426,7 @@
                     "unidades": "/ Grande",
                     "precoPorcao": "R$ 45,00",
                     "unidades2": "/ Médio",
-                    "preco3": "R$ 18,00",
+                    "preco3": "R$ 35,00",
                     "unidades3": "/ Pequeno"
                 }
             ],
@@ -437,7 +437,7 @@
                     "unidades": "/ Grande",
                     "precoPorcao": "R$ 55,00",
                     "unidades2": "/ Médio",
-                    "preco3": "R$ 18,00",
+                    "preco3": "R$ 35,00",
                     "unidades3": "/ Pequeno"
                 }
             ],
